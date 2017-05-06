@@ -1,7 +1,7 @@
 package com.gaussic.controller;
 
-import com.gaussic.model.BlogEntity;
-import com.gaussic.model.UserEntity;
+import com.gaussic.repository.model.BlogEntity;
+import com.gaussic.repository.model.UserEntity;
 import com.gaussic.repository.BlogRepository;
 import com.gaussic.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

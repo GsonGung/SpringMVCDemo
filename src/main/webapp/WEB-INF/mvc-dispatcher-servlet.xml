@@ -33,7 +33,7 @@
 
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
         <property name="persistenceUnitName" value="defaultPersistenceUnit"/>
-        <property name="packagesToScan" value="com.gaussic.model" />
+        <property name="packagesToScan" value="com.gaussic.repository.model" />
         <property name="jpaVendorAdapter">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>
         </property>

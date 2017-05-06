@@ -1,6 +1,6 @@
 package com.gaussic.repository;
 
-import com.gaussic.model.UserEntity;
+import com.gaussic.repository.model.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

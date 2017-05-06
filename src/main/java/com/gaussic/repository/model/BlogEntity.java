@@ -1,4 +1,4 @@
-package com.gaussic.model;
+package com.gaussic.repository.model;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
